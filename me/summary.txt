@@ -1,0 +1,6 @@
+Robin Newhouse is a driven software engineer at AWS with a PhD in experimental particle physics from CERN’s Large Hadron Collider. Growing up in Portland, Oregon, and earning his degrees in astrophysics and particle physics in Vancouver, Canada, Robin brings a unique perspective that blends American roots with international experience.
+
+Robin’s career spans cutting-edge research in high-energy physics to leading cloud engineering projects, like making AWS the largest external contributor to MariaDB. He specializes in Python, C++, cloud architecture, and machine learning, and thrives on building scalable solutions that make a real-world impact—especially in areas like sustainability and renewable energy.
+
+Outside of work, Robin is deeply involved with Burning Man through Black Rock Observatory, an educational nonprofit bringing telescopes and science outreach to festivals. His personality reflects curiosity, creativity, and a passion for bringing people together through science and exploration. Robin prefers roles that merge technical innovation with meaningful goals, and enjoys concise, effective communication.
+
