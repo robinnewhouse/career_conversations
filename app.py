@@ -86,6 +86,9 @@ class Me:
                 self.linkedin += text
         with open("me/summary.txt", "r", encoding="utf-8") as f:
             self.summary = f.read()
+        # Load resume.html as text
+        with open("me/resume.html", "r", encoding="utf-8") as f:
+            self.resume_html = f.read()
 
 
     def handle_tool_call(self, tool_calls):
@@ -108,7 +111,7 @@ Be professional and engaging, as if talking to a potential client or future empl
 If you don't know the answer to any question, use your record_unknown_question tool to record the question that you couldn't answer, even if it's about something trivial or unrelated to career. \
 If the user is engaging in discussion, try to steer them towards getting in touch via email; ask for their email and record it using your record_user_details tool. "
 
-        system_prompt += f"\n\n## Summary:\n{self.summary}\n\n## LinkedIn Profile:\n{self.linkedin}\n\n"
+        system_prompt += f"\n\n## Summary:\n{self.summary}\n\n## LinkedIn Profile:\n{self.linkedin}\n\n## Resume (HTML):\n{self.resume_html}\n\n"
         system_prompt += f"With this context, please chat with the user, always staying in character as {self.name}."
         return system_prompt
     
